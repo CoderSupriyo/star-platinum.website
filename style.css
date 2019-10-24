@@ -61,6 +61,12 @@ html, body{
     font-family: 'Cutive Mono', monospace;
 }
 
+
+.about {
+    background: #fff;
+    animation: about--box 5s;
+}
+
 @keyframes color--changing
 {
     from
@@ -73,3 +79,11 @@ html, body{
         background-color: #7f00ff;
     }
 }
+
+@keyframes about--box {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+  }
+  
